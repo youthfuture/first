@@ -1,0 +1,1 @@
+1.node.js是javascript的一种运行环境。nodejs中含有npm，比如说你安装好nodejs，npm就已经被安装了，npm是包管理器。

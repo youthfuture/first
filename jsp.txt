@@ -1,0 +1,19 @@
+include指令：
+通知jsp引擎在翻译当前jsp页面时将其他文件的内容合并进当前jsp页面，成称为静态引入，合并为一个servlet。
+
+file属性设置必须使用相对路径。以“/”开头表示相对于当前web应用程序的根目录，否则相对于当前文件。
+
+
+<jsp:include标签 page=“”>动态引入，生成两个servlet源文件。
+<c:remove>移除指定的属性
+
+<c:out>可以把结果存储起来，在其之后使用属性。
+<c:forTokens>处理字符串的，类似于String的split()方法。
+<c:import url="" >可以包含任何页面到当前页面。
+<c:redirect >使当前Jsp页面重定向到指定的页面。/代表当前web应用的根目录。
+
+response.sendRedirect（）中的/ 代表WEB站点的根目录。
+/给浏览器解析的话代表当前web站点的根目录，
+/给服务器解析的话代表web应用的根目录。
+
+
